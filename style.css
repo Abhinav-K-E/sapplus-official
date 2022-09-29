@@ -207,6 +207,7 @@ a{
     height: 100%;
     background-color: rgb(223, 221, 221);
     padding: 30px;
+    overflow-y: auto;
 }
 
 .head01{
@@ -320,6 +321,25 @@ a{
 
 #link a:active{
     color: #000;
+}
+
+/*styling about-text*/
+.txt-about{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.mission{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.txt-about li{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /*Responsive*/
